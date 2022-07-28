@@ -1,12 +1,4 @@
-// Find <video> element for seeking functionality
-// const videotags = document.getElementsByTagName('video');
-// const player = videotags[0]
 
-// Find info text element (upper part of UI)
-// const vjsdocktext = document.querySelector('#brightcove-player > .vjs-dock-text');
-// Find control bar element (lower part of UI)
-// const vjscontrolbar = document.querySelector('.vjs-control-bar');
-// Keep track of UI hidden state
 let hidden = false;
 
 
