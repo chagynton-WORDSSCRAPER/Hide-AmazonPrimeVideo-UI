@@ -41,17 +41,14 @@ function runContentScript() {
     // On z, hide or show the UI
     else if (keyName === 'z') {
       if (hidden) {
-        document.querySelector('.meta-overlay').classList.remove('disappeared');
-        document.querySelector('.vjs-control-bar').classList.remove('disappeared');
+        document.querySelector('.webPlayerUIContainer').classList.remove('disappeared');
+        
         hidden = false;
       }
       else {
-        document.querySelector('.meta-overlay').classList.add('disappeared');
-        document.querySelector('.vjs-control-bar').classList.add('disappeared');
+        document.querySelector('.webPlayerUIContainer').classList.add('disappeared');
         hidden = true;
       }
     }
   });
 }
-
-runContentScript();
