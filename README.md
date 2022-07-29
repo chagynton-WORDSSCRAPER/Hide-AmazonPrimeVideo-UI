@@ -3,4 +3,4 @@ This Chrome extension is totally based on praabjerg's [Hide-Funimation-UI](https
 I modify it for AmazonPrimeVideo.
 
 
-Browser extension for hiding/showing Funimation UI. Useful when taking screenshots of videos.
+Browser extension for hiding/showing AmazonPrimeVideo UI. Useful when taking screenshots of videos.
